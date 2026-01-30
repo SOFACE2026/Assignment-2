@@ -17,10 +17,9 @@ The implementation of ShoeShop must declare the function pointers in exactly
 the same order. A type cast to '(Shop*)' needs to be used to use a ShoeShop via
 a Shop pointer:
 
-ShoeShop* shoeshop = malloc(sizeof(ShoeShop));
-
-// do something with shoeshop
-
-Shop* shop = (Shop*) shoeshop;
-
-// do something with shop
+<pre>
+  ShoeShop* shoeshop = malloc(sizeof(ShoeShop));
+  // do something with shoeshop
+  Shop* shop = (Shop*) shoeshop;
+  // do something with shop
+</pre>
